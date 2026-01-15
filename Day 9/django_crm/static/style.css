@@ -1,0 +1,133 @@
+/* ============================= */
+/* Global Page Style */
+/* ============================= */
+body {
+    font-family: Arial, sans-serif;
+    background: #4f4545;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================= */
+/* Form Styling */
+/* ============================= */
+form {
+    width: 350px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #2b2b2b;
+    border-radius: 8px;
+    border: 1px solid #757373;
+}
+
+/* Form Heading */
+h2 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+/* Inputs & Select */
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    background: #000000;
+    color: #e5e7eb;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #3b82f6;
+}
+
+/* Button */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+/* ============================= */
+/* Table Styling */
+/* ============================= */
+.table {
+    width: 90%;
+    margin: 40px auto;
+    background: #2b2b2b;
+    color: #e5e7eb;
+}
+
+/* Table Header */
+.table thead th {
+    background: #1f2933;
+    color: #ffffff;
+    border-color: #4b5563;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Table Body */
+.table tbody tr {
+    transition: background 0.2s ease-in-out;
+}
+
+.table tbody tr:hover {
+    background: #374151;
+}
+
+/* Table Cells */
+.table th,
+.table td {
+    border: 1px solid #4b5563;
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Optional: Status highlight */
+td:last-child {
+    font-weight: bold;
+}
+
+/* Bordered table - add borders */
+.table-bordered {
+    border: 1px solid #4b5563;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Striped table - alternate row colors */
+.table-striped tbody tr:nth-child(odd) {
+    background: #1a1a1a;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background: #242424;
+}
